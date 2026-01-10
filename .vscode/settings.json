@@ -1,20 +1,18 @@
 {
-  // Auto Save when focus changes (allows formatOnSave to work)
   "files.autoSave": "onFocusChange",
-  // Editor settings
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "vscode.html-language-features",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
   "editor.quickSuggestions": {
-    "comments": "off",
-    "strings": "off",
+    "comments": "on",
+    "strings": "on",
     "other": "on"
   },
   "editor.parameterHints.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
-  "editor.hover.enabled": "off",
+  "editor.hover.enabled": "on",
   "editor.inlineSuggest.enabled": false,
   "html.format.enable": true,
   "html.format.maxPreserveNewLines": 2,
@@ -30,14 +28,12 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features",
   },
-  // Git settings for beginners - simplify source control
-  "git.enableSmartCommit": true, // automatically staged
+  "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
-  // "git.postCommitCommand": "sync",
   "scm.defaultViewMode": "list",
   "scm.repositories.visible": 0,
-  // Explorer settings - show only folders view
+
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.compactFolders": false,
@@ -47,14 +43,13 @@
   "outline.showFiles": false,
   "explorer.autoOpenDroppedFile": false,
   "workbench.tree.indent": 25,
-  // Live and Live/Five Server settings
   "fiveServer.port": 5501,
-  "fiveServer.injectBody": false,
+  "fiveServer.injectBody": true,
+  "fiveServer.browser": ["chorme"],
   "liveServer.settings.port": 5504,
-
-  // disable copilot chat
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
-  "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  "inlineChat.accessibleDiffView": "on",
+  "terminal.integrated.initialHint": true,
+  "fiveServer.highlight": true
 }
