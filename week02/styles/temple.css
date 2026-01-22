@@ -32,7 +32,7 @@ h2 {
 }
 
 img {
-    width: 100px;
+    width: 100%;
     height: auto;
     box-shadow: 0px 0px 30px #333;
 }
@@ -54,5 +54,5 @@ ul {
 }
 
 footer {
-    font-size: 9rem;
+    font-size: .9rem;
 }
