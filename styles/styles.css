@@ -1,3 +1,12 @@
+:root {
+    --heading-background-color: ;
+    --text-aling: center;
+    --height: auto;
+    --width: 150px;
+    --box-shadow: 0 0 30px gray;
+    --padding: 2px;
+}
+
 main {
     max-width: 840px;
 }
@@ -8,11 +17,11 @@ nav {
 }
 
 img {
-    width: 150px;
-    height: auto;
+    width: var(--width);
     border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: var(--padding);
+    box-shadow: var(--box-shadow);
+    height: var(--height);
 }
 
 nav a {
@@ -27,11 +36,11 @@ h1 {
 }
 
 main img {
-    width: 150px;
-    height: auto;
+    width: var(--width);
     border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: var(--padding);
+    box-shadow: var(--box-shadow);
+    height: var(--height);
 }
 
 p {
@@ -46,16 +55,16 @@ aside {
     padding: 1em;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-aling);
 }
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-aling);
 }
