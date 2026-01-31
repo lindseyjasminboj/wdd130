@@ -71,13 +71,12 @@ h1 {
     color: var(--primary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     background-color: var(--accent2-color);
     color: #fff;
     margin-top: -140px;
     height: auto;
-
 }
 
 .hero article img {
