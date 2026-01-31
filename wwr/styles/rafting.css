@@ -1,6 +1,5 @@
 :root {
     --primary-color: rgb(255, 255, 255);
-    --secondary-color: #250;
     --accent1-color: hsl(244, 67%, 43%);
     --accent2-color: hsla(234, 81%, 36%, 0.781);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -46,7 +45,7 @@ article {
     padding: 8px;
 }
 
-.sotialmedia a {
+.socialmedia a {
     text-decoration: none;
 }
 
