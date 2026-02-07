@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(255, 255, 255);
-    --accent1-color: rgb(13, 25, 136);
+    --accent1-color: #0f0d88;
     --accent2-color: hsla(234, 81%, 36%, 0.781);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
