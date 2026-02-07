@@ -209,7 +209,6 @@ footer img {
     height: 20px;
     margin: 0;
     padding: 0;
-    gap: 0;
     display: grid;
     grid-column-start: 3;
     grid-column-end: 4;
