@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+font-family {
+    font-size: 1.5rem;
+    font-family: arial, sans-serif, roboto;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, sans-serif, roboto;
+    color: #ffffff;
+    background-color: #fff;
+}
+
+header {
+    color: #00ff;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 2px;
+}
+
+form {
+    width: 300px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px #00074b;
+    border-radius: 2px;
+    background-color: #0013c0;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 1rem;
+    border: 1rem #00074b;
+    margin: 1em;
+    padding: 1em;
+}
+
+legend {
+    margin: 2em;
+    padding: 2em;
+    color: #000;
+    font-size: 1em;
+}
+
+label {
+    font-family: Roboto, Arial, sans-serif;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    color: #eee;
+    background-color: rgb(34, 89, 241);
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #00990d;
+}
+
+select {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 1rem;
+    font-size: 1.09rem;
+}
+
+footer {
+    margin: 0;
+    padding: 1em;
+    width: 300px;
+    height: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1em;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 1.2em;
+
+}
+
+.column2 {
+    margin: 1px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
