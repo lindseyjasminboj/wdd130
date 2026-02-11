@@ -15,32 +15,28 @@
 header {
     background-color: var(--accent1-color);
     text-decoration: none;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 nav a {
     display: block;
     color: #fff;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
-    grid-row: 1/5;
 }
 
 img {
     margin: auto;
     width: 120px;
     height: 120px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+}
 }
 
 .links {
@@ -185,7 +181,7 @@ h1 {
     position: absolute;
     background-color: var(--accent2-color);
     color: #fff;
-    margin-top: -190px;
+    margin-top: -200px;
     height: auto;
 }
 
