@@ -145,6 +145,7 @@ button:hover {
 }
 
 .employee h2 {
+    padding-top: 1rem;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 6;
@@ -163,7 +164,7 @@ figcaption {
     flex-wrap: wrap;
     display: block;
     color: #fff;
-    padding: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     grid-row: 2/2;
 }
