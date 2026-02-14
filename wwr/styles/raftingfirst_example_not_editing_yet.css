@@ -28,6 +28,8 @@ nav {
 nav a {
     display: block;
     color: #fff;
+    padding-right: 8rem;
+    padding-left: 1rem;
     padding: 1rem;
     text-align: center;
 }
