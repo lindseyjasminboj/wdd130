@@ -61,7 +61,7 @@ form {
     text-align: center;
     display: grid;
     grid-template-columns: 150px 400px;
-    grid-template-rows: repeat(8, 0.3fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
 }
 
 label {
