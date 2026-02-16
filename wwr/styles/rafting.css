@@ -19,8 +19,6 @@ header {
     grid-template-columns: 1fr 2fr;
 }
 
-nav {}
-
 .links a {
     display: block;
     color: #fff;
