@@ -14,7 +14,6 @@
 
 header {
     background-color: var(--accent1-color);
-    text-decoration: none;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -22,6 +21,7 @@ header {
 .links a {
     display: block;
     color: #fff;
+    text-decoration: none;
 }
 
 img {
