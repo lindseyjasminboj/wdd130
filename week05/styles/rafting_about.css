@@ -67,7 +67,7 @@ li {
     grid-row: 2/2;
 }
 
-ul h2 {
+.history h2 {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 6;
